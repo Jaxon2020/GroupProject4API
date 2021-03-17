@@ -10,3 +10,11 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     return "Hello, Welcome to group project #5."
+
+''' example
+@app.route('/md5/<string>')
+def json_response():
+    resp = Response('{ "foo": "bar", "baz": "bat" }')
+    resp.headers['Content-Type'] = 'application/json'
+    return resp
+'''
