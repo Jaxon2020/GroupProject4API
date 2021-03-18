@@ -22,8 +22,10 @@ def json_response():
 def factorial():
     n = int(input("enter a number:"))
     factorial = 1
-    if n == 0:
+    if (n == 0):
         print("The factorial of 0 is 1")
+    else if (n < 0):
+        print("Error, The input was not positive, please try again")
     else:
        for i in range(1,n + 1):
            factorial = factorial*i
