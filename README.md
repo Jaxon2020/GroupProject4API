@@ -1,5 +1,6 @@
 # GroupProject7: Building and testing API clients
--Building a command line interface that interacts with your API
+-Building a command line interface that interacts with your API 
+
 -Writing an automated testing suite so you can modify your API while still guaranteeing that other clients won’t break
 
 (From the commands instructed in Group Project 5)
